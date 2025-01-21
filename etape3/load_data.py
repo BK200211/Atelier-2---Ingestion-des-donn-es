@@ -1,10 +1,10 @@
 import duckdb
 
-# Connect to a DuckDB database (or create it if it doesn't exist)
+
 
 con = duckdb.connect('mydatabase.db')
 
-# Load Parquet files into tables with 'raw' prefix
+
 
 con.execute("CREATE TABLE raw_activity AS SELECT * FROM read_parquet('activity.parquet')")
 
@@ -16,6 +16,5 @@ con.execute("CREATE TABLE raw_documentation AS SELECT * FROM read_parquet('docum
 
 con.execute("CREATE TABLE raw_automation AS SELECT * FROM read_parquet('automation.parquet')")
 
-# Close the connection
 
 con.close()
