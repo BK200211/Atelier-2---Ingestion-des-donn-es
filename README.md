@@ -104,4 +104,4 @@ con.close()
 
 ##Résultat sur Duckdb:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/1110d819-cc93-4977-b5d5-3571bf7333c1)
