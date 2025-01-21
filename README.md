@@ -42,4 +42,5 @@
       - Taux de succès des tests automatisés.
       - Temps moyen des workflows.
      
-      ![image](https://github.com/user-attachments/assets/d07fbf5d-d66d-46f2-8416-dc20a68482e4)
+      ![image](https://github.com/user-attachments/assets/dcb7d395-7208-4072-bf56-79df0c73e49b)
+
