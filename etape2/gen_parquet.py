@@ -2,7 +2,7 @@ import pandas as pd
 import pyarrow.parquet as pq
 import pyarrow as pa
 
-# Exemple de données pour chaque indicateur
+# Exemple de données 
 data_activity = {
     'Temps': ['2023-09', '2023-09'],
     'Contributeur': ['Alice', 'Bob'],
@@ -50,7 +50,7 @@ df_issues = pd.DataFrame(data_issues)
 df_documentation = pd.DataFrame(data_documentation)
 df_automation = pd.DataFrame(data_automation)
 
-# Sauvegarder chaque DataFrame en format parquet
+# Sauvegarder en format parquet
 df_activity.to_parquet('activity.parquet')
 df_commits.to_parquet('commits.parquet')
 df_issues.to_parquet('issues.parquet')
