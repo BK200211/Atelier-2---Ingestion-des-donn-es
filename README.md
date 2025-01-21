@@ -101,3 +101,7 @@ con.execute("CREATE TABLE raw_automation AS SELECT * FROM read_parquet('automati
 con.close()
  
 ```
+
+##Résultat sur Duckdb:
+
+![alt text](image.png)
