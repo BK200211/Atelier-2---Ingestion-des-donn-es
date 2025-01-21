@@ -41,3 +41,6 @@
    5. **Automatisation et intégration continue** :
       - Taux de succès des tests automatisés.
       - Temps moyen des workflows.
+     
+      ![image](https://github.com/user-attachments/assets/dcb7d395-7208-4072-bf56-79df0c73e49b)
+
