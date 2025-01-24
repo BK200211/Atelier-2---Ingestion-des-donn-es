@@ -2,7 +2,6 @@ import pandas as pd
 import pyarrow.parquet as pq
 import pyarrow as pa
 
-# Exemple de données pour chaque indicateur
 data_activity = {
     'Temps': ['2023-09', '2023-09'],
     'Contributeur': ['Alice', 'Bob'],
@@ -43,28 +42,24 @@ data_automation = {
     'Temps Moyen des Workflows': ['5min', '4min']
 }
 
-# Convertir en DataFrame
 df_activity = pd.DataFrame(data_activity)
 df_commits = pd.DataFrame(data_commits)
 df_issues = pd.DataFrame(data_issues)
 df_documentation = pd.DataFrame(data_documentation)
 df_automation = pd.DataFrame(data_automation)
 
-# Sauvegarder chaque DataFrame en format parquet
 df_activity.to_parquet('activity.parquet')
 df_commits.to_parquet('commits.parquet')
 df_issues.to_parquet('issues.parquet')
 df_documentation.to_parquet('documentation.parquet')
 df_automation.to_parquet('automation.parquet')
 
-# Lire les fichiers Parquet
 df_activity = pd.read_parquet('activity.parquet')
 df_commits = pd.read_parquet('commits.parquet')
 df_issues = pd.read_parquet('issues.parquet')
 df_documentation = pd.read_parquet('documentation.parquet')
 df_automation = pd.read_parquet('automation.parquet')
 
-# Afficher les données
 print("Activity DataFrame")
 print(df_activity)
 
