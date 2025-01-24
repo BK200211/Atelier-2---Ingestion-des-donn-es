@@ -1,10 +1,6 @@
 import duckdb
 
-
-
 con = duckdb.connect('mydatabase.db')
-
-
 
 con.execute("CREATE TABLE raw_activity AS SELECT * FROM read_parquet('activity.parquet')")
 
