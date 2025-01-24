@@ -6,16 +6,27 @@ Git
 
    ### Sources de données identifiées :
    
-Repositories
-Commits
-Issues
-Users
-Pull Requests
-Branches
-Releases
-Tags
-Organizations
-Projects
+#Repositories
+#Commits
+#Issues
+#Users
+#Pull Requests
+#Branches
+#Releases
+#Tags
+#Organizations
+#Projects
+
+
+## Outils Utilisés
+- **API REST**
+## Sources de Données
+1. **public.Temps** : Informations sur les dates et les temps.
+2. **public.Activities** : Détails des activités.
+3. **public.Contributeurs** : Informations sur les contributeurs.
+4. **Issue.Pull** : Détails des issues et des pull requests.
+
+
 
    ## Indicateurs d'investissement
 

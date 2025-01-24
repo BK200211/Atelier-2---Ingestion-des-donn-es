@@ -1,15 +1,13 @@
-Welcome to your new dbt project!
+étape 1:
 
-### Using the starter project
+Voici le code afin de référencer les tables :
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+version: 2
+sources:
+  - name: raw
+    tables:
+      - name: raw_activity
+      - name: raw_commits
+      - name: raw_issues
+      - name: raw_documentation
+      - name: raw_automation
