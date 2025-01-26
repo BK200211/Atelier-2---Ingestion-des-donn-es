@@ -58,3 +58,1271 @@ Happy modeling!
 [0m14:45:45.514946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C96261C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C981971C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C95534580>]}
 [0m14:45:45.514946 [debug] [MainThread]: Flushing usage events
 [0m14:45:45.999326 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:29:10.869971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB15694D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB175CC550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB175CC3A0>]}
+
+
+============================== 17:29:10.874480 | 77e2ba3e-6c0f-4692-a759-472494f60ff3 ==============================
+[0m17:29:10.874480 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:29:10.875486 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m17:29:11.020299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '77e2ba3e-6c0f-4692-a759-472494f60ff3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB175CC7F0>]}
+[0m17:29:11.047437 [debug] [MainThread]: Command `dbt clean` succeeded at 17:29:11.047437 after 0.25 seconds
+[0m17:29:11.047942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB15694D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB16ACC4F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB14942850>]}
+[0m17:29:11.048949 [debug] [MainThread]: Flushing usage events
+[0m17:29:11.491047 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:29:13.599836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001437EC03CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014300B55A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014300B55BB0>]}
+
+
+============================== 17:29:13.603837 | 0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86 ==============================
+[0m17:29:13.603837 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:29:13.604837 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt compile', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:29:13.842061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001437DC6E9A0>]}
+[0m17:29:13.895896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014300B270D0>]}
+[0m17:29:13.900357 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m17:29:14.176935 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m17:29:14.178936 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:29:14.178936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014300FDF940>]}
+[0m17:29:15.499274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014302652EB0>]}
+[0m17:29:15.597577 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:29:15.610266 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:29:15.635897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001430261AE50>]}
+[0m17:29:15.637005 [info ] [MainThread]: Found 6 models, 4 data tests, 4 sources, 424 macros
+[0m17:29:15.637005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014302689A30>]}
+[0m17:29:15.638077 [info ] [MainThread]: 
+[0m17:29:15.640048 [info ] [MainThread]: Concurrency: 1 threads (target='prod')
+[0m17:29:15.640048 [info ] [MainThread]: 
+[0m17:29:15.641553 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m17:29:15.646105 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_prod_raw'
+[0m17:29:15.746811 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:29:15.746811 [debug] [ThreadPool]: On list_prod_raw: BEGIN
+[0m17:29:15.748316 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:29:15.757324 [debug] [ThreadPool]: SQL status: OK in 0.010 seconds
+[0m17:29:15.758840 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:29:15.759844 [debug] [ThreadPool]: On list_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "list_prod_raw"} */
+select
+      'prod' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'raw'
+    and lower(table_catalog) = 'prod'
+  
+[0m17:29:15.785173 [debug] [ThreadPool]: SQL status: OK in 0.025 seconds
+[0m17:29:15.787179 [debug] [ThreadPool]: On list_prod_raw: ROLLBACK
+[0m17:29:15.788178 [debug] [ThreadPool]: Failed to rollback 'list_prod_raw'
+[0m17:29:15.788178 [debug] [ThreadPool]: On list_prod_raw: Close
+[0m17:29:15.794385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0ac54994-9e9e-49fe-b3a7-dfdbc80e3f86', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143026C7790>]}
+[0m17:29:15.801392 [debug] [Thread-1  ]: Began running node model.atelier3.contributors
+[0m17:29:15.802451 [debug] [Thread-1  ]: Acquiring new duckdb connection 'model.atelier3.contributors'
+[0m17:29:15.802451 [debug] [Thread-1  ]: Began compiling node model.atelier3.contributors
+[0m17:29:15.809981 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.contributors"
+[0m17:29:15.811981 [debug] [Thread-1  ]: Began executing node model.atelier3.contributors
+[0m17:29:15.811981 [debug] [Thread-1  ]: Finished running node model.atelier3.contributors
+[0m17:29:15.813127 [debug] [Thread-1  ]: Began running node model.atelier3.my_first_dbt_model
+[0m17:29:15.813127 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.contributors, now model.atelier3.my_first_dbt_model)
+[0m17:29:15.814534 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_first_dbt_model
+[0m17:29:15.816577 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_first_dbt_model"
+[0m17:29:15.817577 [debug] [Thread-1  ]: Began executing node model.atelier3.my_first_dbt_model
+[0m17:29:15.819082 [debug] [Thread-1  ]: Finished running node model.atelier3.my_first_dbt_model
+[0m17:29:15.819082 [debug] [Thread-1  ]: Began running node model.atelier3.pulls
+[0m17:29:15.820086 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_first_dbt_model, now model.atelier3.pulls)
+[0m17:29:15.821095 [debug] [Thread-1  ]: Began compiling node model.atelier3.pulls
+[0m17:29:15.823092 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.pulls"
+[0m17:29:15.824092 [debug] [Thread-1  ]: Began executing node model.atelier3.pulls
+[0m17:29:15.825298 [debug] [Thread-1  ]: Finished running node model.atelier3.pulls
+[0m17:29:15.825298 [debug] [Thread-1  ]: Began running node model.atelier3.raw_to_cleansed
+[0m17:29:15.826330 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.pulls, now model.atelier3.raw_to_cleansed)
+[0m17:29:15.826330 [debug] [Thread-1  ]: Began compiling node model.atelier3.raw_to_cleansed
+[0m17:29:15.829374 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.raw_to_cleansed"
+[0m17:29:15.830379 [debug] [Thread-1  ]: Began executing node model.atelier3.raw_to_cleansed
+[0m17:29:15.830379 [debug] [Thread-1  ]: Finished running node model.atelier3.raw_to_cleansed
+[0m17:29:15.831379 [debug] [Thread-1  ]: Began running node model.atelier3.transform_issues
+[0m17:29:15.831379 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.raw_to_cleansed, now model.atelier3.transform_issues)
+[0m17:29:15.832381 [debug] [Thread-1  ]: Began compiling node model.atelier3.transform_issues
+[0m17:29:15.834751 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.transform_issues"
+[0m17:29:15.837182 [debug] [Thread-1  ]: Began executing node model.atelier3.transform_issues
+[0m17:29:15.837182 [debug] [Thread-1  ]: Finished running node model.atelier3.transform_issues
+[0m17:29:15.838612 [debug] [Thread-1  ]: Began running node model.atelier3.my_second_dbt_model
+[0m17:29:15.838612 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.transform_issues, now model.atelier3.my_second_dbt_model)
+[0m17:29:15.839623 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_second_dbt_model
+[0m17:29:15.842828 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_second_dbt_model"
+[0m17:29:15.844333 [debug] [Thread-1  ]: Began executing node model.atelier3.my_second_dbt_model
+[0m17:29:15.845338 [debug] [Thread-1  ]: Finished running node model.atelier3.my_second_dbt_model
+[0m17:29:15.845338 [debug] [Thread-1  ]: Began running node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:15.846352 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_second_dbt_model, now test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710)
+[0m17:29:15.846352 [debug] [Thread-1  ]: Began compiling node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:15.855909 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:29:15.859029 [debug] [Thread-1  ]: Began executing node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:15.860108 [debug] [Thread-1  ]: Finished running node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:15.860651 [debug] [Thread-1  ]: Began running node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:15.861189 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710, now test.atelier3.unique_my_first_dbt_model_id.16e066b321)
+[0m17:29:15.861727 [debug] [Thread-1  ]: Began compiling node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:15.867639 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.unique_my_first_dbt_model_id.16e066b321"
+[0m17:29:15.869158 [debug] [Thread-1  ]: Began executing node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:15.870219 [debug] [Thread-1  ]: Finished running node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:15.870219 [debug] [Thread-1  ]: Began running node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:15.871221 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.unique_my_first_dbt_model_id.16e066b321, now test.atelier3.not_null_my_second_dbt_model_id.151b76d778)
+[0m17:29:15.871221 [debug] [Thread-1  ]: Began compiling node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:15.875222 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"
+[0m17:29:15.877217 [debug] [Thread-1  ]: Began executing node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:15.877217 [debug] [Thread-1  ]: Finished running node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:15.878670 [debug] [Thread-1  ]: Began running node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:15.878670 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.not_null_my_second_dbt_model_id.151b76d778, now test.atelier3.unique_my_second_dbt_model_id.57a0f8c493)
+[0m17:29:15.879670 [debug] [Thread-1  ]: Began compiling node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:15.883301 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"
+[0m17:29:15.884304 [debug] [Thread-1  ]: Began executing node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:15.884304 [debug] [Thread-1  ]: Finished running node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:15.885301 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:29:15.885301 [debug] [MainThread]: Connection 'list_prod_raw' was properly closed.
+[0m17:29:15.886805 [debug] [MainThread]: Connection 'test.atelier3.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m17:29:15.887814 [debug] [MainThread]: Command end result
+[0m17:29:15.908108 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:29:15.910108 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:29:15.917626 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\run_results.json
+[0m17:29:15.919130 [debug] [MainThread]: Command `dbt compile` succeeded at 17:29:15.919130 after 2.40 seconds
+[0m17:29:15.920137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001437EC03CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001437EADCCA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001430261AE50>]}
+[0m17:29:15.920137 [debug] [MainThread]: Flushing usage events
+[0m17:29:16.339628 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:29:21.249389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7B184CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7D0C47F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7D0C4640>]}
+
+
+============================== 17:29:21.253587 | 61368444-61f0-4b21-9e81-fbba62c98e57 ==============================
+[0m17:29:21.253587 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:29:21.254592 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt build', 'send_anonymous_usage_stats': 'True'}
+[0m17:29:21.504419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F799EE9D0>]}
+[0m17:29:21.559486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7D09F3D0>]}
+[0m17:29:21.564980 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m17:29:21.832881 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m17:29:22.025968 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:29:22.026968 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:29:22.081530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7D7F3F10>]}
+[0m17:29:22.182284 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:29:22.184800 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:29:22.226598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7E877550>]}
+[0m17:29:22.227604 [info ] [MainThread]: Found 6 models, 4 data tests, 4 sources, 424 macros
+[0m17:29:22.229710 [info ] [MainThread]: 
+[0m17:29:22.230776 [info ] [MainThread]: Concurrency: 1 threads (target='prod')
+[0m17:29:22.230776 [info ] [MainThread]: 
+[0m17:29:22.232111 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m17:29:22.237127 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_prod'
+[0m17:29:22.329315 [debug] [ThreadPool]: Using duckdb connection "list_prod"
+[0m17:29:22.329315 [debug] [ThreadPool]: On list_prod: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "list_prod"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"prod"'
+    
+  
+  
+[0m17:29:22.330314 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:29:22.341605 [debug] [ThreadPool]: SQL status: OK in 0.011 seconds
+[0m17:29:22.342605 [debug] [ThreadPool]: On list_prod: Close
+[0m17:29:22.344760 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_prod, now create_prod_raw)
+[0m17:29:22.346177 [debug] [ThreadPool]: Creating schema "database: "prod"
+schema: "raw"
+"
+[0m17:29:22.352589 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:22.353600 [debug] [ThreadPool]: On create_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "create_prod_raw"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='prod'
+        and type='sqlite'
+    
+  
+[0m17:29:22.353600 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:29:22.363082 [debug] [ThreadPool]: SQL status: OK in 0.009 seconds
+[0m17:29:22.364661 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:22.365169 [debug] [ThreadPool]: On create_prod_raw: BEGIN
+[0m17:29:22.365169 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:29:22.366185 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:22.366185 [debug] [ThreadPool]: On create_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "create_prod_raw"} */
+
+    
+    
+        create schema if not exists "prod"."raw"
+    
+[0m17:29:22.367546 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:29:22.367546 [debug] [ThreadPool]: On create_prod_raw: COMMIT
+[0m17:29:22.368545 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:22.368545 [debug] [ThreadPool]: On create_prod_raw: COMMIT
+[0m17:29:22.369635 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:29:22.369635 [debug] [ThreadPool]: On create_prod_raw: Close
+[0m17:29:22.374025 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_prod_raw'
+[0m17:29:22.379302 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:29:22.380325 [debug] [ThreadPool]: On list_prod_raw: BEGIN
+[0m17:29:22.380325 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:29:22.387761 [debug] [ThreadPool]: SQL status: OK in 0.008 seconds
+[0m17:29:22.387761 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:29:22.387761 [debug] [ThreadPool]: On list_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "list_prod_raw"} */
+select
+      'prod' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'raw'
+    and lower(table_catalog) = 'prod'
+  
+[0m17:29:22.414825 [debug] [ThreadPool]: SQL status: OK in 0.025 seconds
+[0m17:29:22.416321 [debug] [ThreadPool]: On list_prod_raw: ROLLBACK
+[0m17:29:22.417722 [debug] [ThreadPool]: Failed to rollback 'list_prod_raw'
+[0m17:29:22.418249 [debug] [ThreadPool]: On list_prod_raw: Close
+[0m17:29:22.423008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7A499760>]}
+[0m17:29:22.424008 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:22.424008 [debug] [MainThread]: On master: BEGIN
+[0m17:29:22.425009 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:29:22.432019 [debug] [MainThread]: SQL status: OK in 0.008 seconds
+[0m17:29:22.434151 [debug] [MainThread]: On master: COMMIT
+[0m17:29:22.434151 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:22.435150 [debug] [MainThread]: On master: COMMIT
+[0m17:29:22.435150 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m17:29:22.436386 [debug] [MainThread]: On master: Close
+[0m17:29:22.440012 [debug] [Thread-1  ]: Began running node model.atelier3.contributors
+[0m17:29:22.441017 [info ] [Thread-1  ]: 1 of 10 START sql view model raw.contributors .................................. [RUN]
+[0m17:29:22.442022 [debug] [Thread-1  ]: Acquiring new duckdb connection 'model.atelier3.contributors'
+[0m17:29:22.443021 [debug] [Thread-1  ]: Began compiling node model.atelier3.contributors
+[0m17:29:22.450171 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.contributors"
+[0m17:29:22.452788 [debug] [Thread-1  ]: Began executing node model.atelier3.contributors
+[0m17:29:22.484578 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.contributors"
+[0m17:29:22.486706 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:22.487984 [debug] [Thread-1  ]: On model.atelier3.contributors: BEGIN
+[0m17:29:22.487984 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m17:29:22.497070 [debug] [Thread-1  ]: SQL status: OK in 0.008 seconds
+[0m17:29:22.497070 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:22.498071 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+
+  
+  create view "prod"."raw"."contributors__dbt_tmp" as (
+    SELECT
+    login AS contributor_name,
+    contributions
+FROM "prod"."raw"."Contributeurs"
+  );
+
+[0m17:29:22.499069 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.504844 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:22.504844 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+alter view "prod"."raw"."contributors" rename to "contributors__dbt_backup"
+[0m17:29:22.506120 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.510404 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:22.510404 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+alter view "prod"."raw"."contributors__dbt_tmp" rename to "contributors"
+[0m17:29:22.511746 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.568527 [debug] [Thread-1  ]: On model.atelier3.contributors: COMMIT
+[0m17:29:22.569533 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:22.569533 [debug] [Thread-1  ]: On model.atelier3.contributors: COMMIT
+[0m17:29:22.574205 [debug] [Thread-1  ]: SQL status: OK in 0.004 seconds
+[0m17:29:22.579341 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:22.579341 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+drop view if exists "prod"."raw"."contributors__dbt_backup" cascade
+[0m17:29:22.582857 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:22.585866 [debug] [Thread-1  ]: On model.atelier3.contributors: Close
+[0m17:29:22.608303 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F799CB460>]}
+[0m17:29:22.610260 [info ] [Thread-1  ]: 1 of 10 OK created sql view model raw.contributors ............................. [[32mOK[0m in 0.16s]
+[0m17:29:22.611269 [debug] [Thread-1  ]: Finished running node model.atelier3.contributors
+[0m17:29:22.611269 [debug] [Thread-1  ]: Began running node model.atelier3.my_first_dbt_model
+[0m17:29:22.612537 [info ] [Thread-1  ]: 2 of 10 START sql view model raw.my_first_dbt_model ............................ [RUN]
+[0m17:29:22.612537 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.contributors, now model.atelier3.my_first_dbt_model)
+[0m17:29:22.613554 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_first_dbt_model
+[0m17:29:22.616670 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_first_dbt_model"
+[0m17:29:22.617669 [debug] [Thread-1  ]: Began executing node model.atelier3.my_first_dbt_model
+[0m17:29:22.619679 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.my_first_dbt_model"
+[0m17:29:22.622259 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:22.623258 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: BEGIN
+[0m17:29:22.623258 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:22.638141 [debug] [Thread-1  ]: SQL status: OK in 0.015 seconds
+[0m17:29:22.639147 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:22.640154 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+
+  
+  create view "prod"."raw"."my_first_dbt_model__dbt_tmp" as (
+    SELECT *
+FROM "prod"."raw"."Temps"
+WHERE id IS NOT NULL
+  );
+
+[0m17:29:22.641154 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.644675 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:22.644675 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+alter view "prod"."raw"."my_first_dbt_model" rename to "my_first_dbt_model__dbt_backup"
+[0m17:29:22.645676 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.647676 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:22.649183 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+alter view "prod"."raw"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m17:29:22.650195 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.651689 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: COMMIT
+[0m17:29:22.651689 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:22.651689 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: COMMIT
+[0m17:29:22.656473 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:22.659284 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:22.659809 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+drop view if exists "prod"."raw"."my_first_dbt_model__dbt_backup" cascade
+[0m17:29:22.662445 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:22.663968 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: Close
+[0m17:29:22.685414 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7CAE9B50>]}
+[0m17:29:22.686436 [info ] [Thread-1  ]: 2 of 10 OK created sql view model raw.my_first_dbt_model ....................... [[32mOK[0m in 0.07s]
+[0m17:29:22.687437 [debug] [Thread-1  ]: Finished running node model.atelier3.my_first_dbt_model
+[0m17:29:22.687437 [debug] [Thread-1  ]: Began running node model.atelier3.pulls
+[0m17:29:22.688451 [info ] [Thread-1  ]: 3 of 10 START sql view model raw.pulls ......................................... [RUN]
+[0m17:29:22.689452 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_first_dbt_model, now model.atelier3.pulls)
+[0m17:29:22.689452 [debug] [Thread-1  ]: Began compiling node model.atelier3.pulls
+[0m17:29:22.694301 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.pulls"
+[0m17:29:22.694301 [debug] [Thread-1  ]: Began executing node model.atelier3.pulls
+[0m17:29:22.697814 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.pulls"
+[0m17:29:22.699320 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:22.700333 [debug] [Thread-1  ]: On model.atelier3.pulls: BEGIN
+[0m17:29:22.701333 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:22.714648 [debug] [Thread-1  ]: SQL status: OK in 0.015 seconds
+[0m17:29:22.716144 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:22.717143 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+
+  
+  create view "prod"."raw"."pulls__dbt_tmp" as (
+    SELECT 
+    id AS pull_id,
+    state AS pull_state,
+    created_at,
+    closed_at,
+    user->>'login' AS author
+FROM "prod"."raw"."Pull"
+  );
+
+[0m17:29:22.717143 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.721113 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:22.722803 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+alter view "prod"."raw"."pulls" rename to "pulls__dbt_backup"
+[0m17:29:22.722803 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.726243 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:22.726243 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+alter view "prod"."raw"."pulls__dbt_tmp" rename to "pulls"
+[0m17:29:22.727749 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.729278 [debug] [Thread-1  ]: On model.atelier3.pulls: COMMIT
+[0m17:29:22.730288 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:22.730288 [debug] [Thread-1  ]: On model.atelier3.pulls: COMMIT
+[0m17:29:22.733884 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:22.736891 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:22.736891 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+drop view if exists "prod"."raw"."pulls__dbt_backup" cascade
+[0m17:29:22.739932 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:22.741940 [debug] [Thread-1  ]: On model.atelier3.pulls: Close
+[0m17:29:22.762615 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7EE642B0>]}
+[0m17:29:22.763125 [info ] [Thread-1  ]: 3 of 10 OK created sql view model raw.pulls .................................... [[32mOK[0m in 0.07s]
+[0m17:29:22.764130 [debug] [Thread-1  ]: Finished running node model.atelier3.pulls
+[0m17:29:22.765134 [debug] [Thread-1  ]: Began running node model.atelier3.raw_to_cleansed
+[0m17:29:22.765134 [info ] [Thread-1  ]: 4 of 10 START sql view model raw.raw_to_cleansed ............................... [RUN]
+[0m17:29:22.766131 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.pulls, now model.atelier3.raw_to_cleansed)
+[0m17:29:22.767090 [debug] [Thread-1  ]: Began compiling node model.atelier3.raw_to_cleansed
+[0m17:29:22.769125 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.raw_to_cleansed"
+[0m17:29:22.771509 [debug] [Thread-1  ]: Began executing node model.atelier3.raw_to_cleansed
+[0m17:29:22.775022 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.raw_to_cleansed"
+[0m17:29:22.776022 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:22.776022 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: BEGIN
+[0m17:29:22.777153 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:22.791697 [debug] [Thread-1  ]: SQL status: OK in 0.015 seconds
+[0m17:29:22.792739 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:22.792739 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+
+  
+  create view "prod"."raw"."raw_to_cleansed__dbt_tmp" as (
+    SELECT *
+FROM "prod"."raw"."Temps"
+  );
+
+[0m17:29:22.793740 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.797069 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:22.798070 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+alter view "prod"."raw"."raw_to_cleansed" rename to "raw_to_cleansed__dbt_backup"
+[0m17:29:22.798070 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.803336 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:22.803336 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+alter view "prod"."raw"."raw_to_cleansed__dbt_tmp" rename to "raw_to_cleansed"
+[0m17:29:22.804555 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.805685 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: COMMIT
+[0m17:29:22.806696 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:22.806696 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: COMMIT
+[0m17:29:22.810692 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:22.813207 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:22.814212 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+drop view if exists "prod"."raw"."raw_to_cleansed__dbt_backup" cascade
+[0m17:29:22.817184 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:22.819194 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: Close
+[0m17:29:22.840195 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7EF00F70>]}
+[0m17:29:22.841700 [info ] [Thread-1  ]: 4 of 10 OK created sql view model raw.raw_to_cleansed .......................... [[32mOK[0m in 0.07s]
+[0m17:29:22.842708 [debug] [Thread-1  ]: Finished running node model.atelier3.raw_to_cleansed
+[0m17:29:22.842708 [debug] [Thread-1  ]: Began running node model.atelier3.transform_issues
+[0m17:29:22.843712 [info ] [Thread-1  ]: 5 of 10 START sql view model raw.transform_issues .............................. [RUN]
+[0m17:29:22.843712 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.raw_to_cleansed, now model.atelier3.transform_issues)
+[0m17:29:22.845225 [debug] [Thread-1  ]: Began compiling node model.atelier3.transform_issues
+[0m17:29:22.848259 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.transform_issues"
+[0m17:29:22.849260 [debug] [Thread-1  ]: Began executing node model.atelier3.transform_issues
+[0m17:29:22.852260 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.transform_issues"
+[0m17:29:22.853741 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:22.854747 [debug] [Thread-1  ]: On model.atelier3.transform_issues: BEGIN
+[0m17:29:22.854747 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:22.868593 [debug] [Thread-1  ]: SQL status: OK in 0.014 seconds
+[0m17:29:22.869599 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:22.869599 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+
+  
+  create view "prod"."raw"."transform_issues__dbt_tmp" as (
+    WITH issues AS (
+    SELECT * FROM "prod"."raw"."Temps"
+    UNION ALL
+    SELECT * FROM "prod"."raw"."Activities"
+)
+
+SELECT
+    id AS issue_id,
+    created_at,
+    closed_at,
+    state,
+    title
+FROM issues
+WHERE id IS NOT NULL
+  );
+
+[0m17:29:22.871613 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:22.875130 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:22.875130 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+alter view "prod"."raw"."transform_issues" rename to "transform_issues__dbt_backup"
+[0m17:29:22.876131 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.879439 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:22.880459 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+alter view "prod"."raw"."transform_issues__dbt_tmp" rename to "transform_issues"
+[0m17:29:22.880459 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:22.882783 [debug] [Thread-1  ]: On model.atelier3.transform_issues: COMMIT
+[0m17:29:22.882783 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:22.882783 [debug] [Thread-1  ]: On model.atelier3.transform_issues: COMMIT
+[0m17:29:22.886547 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:22.889603 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:22.889603 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+drop view if exists "prod"."raw"."transform_issues__dbt_backup" cascade
+[0m17:29:22.893163 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:22.894173 [debug] [Thread-1  ]: On model.atelier3.transform_issues: Close
+[0m17:29:22.916561 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7EF45550>]}
+[0m17:29:22.917562 [info ] [Thread-1  ]: 5 of 10 OK created sql view model raw.transform_issues ......................... [[32mOK[0m in 0.07s]
+[0m17:29:22.919564 [debug] [Thread-1  ]: Finished running node model.atelier3.transform_issues
+[0m17:29:22.920071 [debug] [Thread-1  ]: Began running node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:22.920071 [info ] [Thread-1  ]: 6 of 10 START test not_null_my_first_dbt_model_id .............................. [RUN]
+[0m17:29:22.921078 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.transform_issues, now test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710)
+[0m17:29:22.921078 [debug] [Thread-1  ]: Began compiling node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:22.934016 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:29:22.935381 [debug] [Thread-1  ]: Began executing node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:22.950007 [debug] [Thread-1  ]: Writing runtime sql for node "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:29:22.952036 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:29:22.952573 [debug] [Thread-1  ]: On test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710: BEGIN
+[0m17:29:22.953105 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:22.967523 [debug] [Thread-1  ]: SQL status: OK in 0.014 seconds
+[0m17:29:22.968525 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:29:22.968525 [debug] [Thread-1  ]: On test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from "prod"."raw"."my_first_dbt_model"
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m17:29:22.970531 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:22.973158 [debug] [Thread-1  ]: On test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710: ROLLBACK
+[0m17:29:22.974178 [debug] [Thread-1  ]: Failed to rollback 'test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710'
+[0m17:29:22.974178 [debug] [Thread-1  ]: On test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710: Close
+[0m17:29:22.977354 [info ] [Thread-1  ]: 6 of 10 PASS not_null_my_first_dbt_model_id .................................... [[32mPASS[0m in 0.06s]
+[0m17:29:22.978358 [debug] [Thread-1  ]: Finished running node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:29:22.979356 [debug] [Thread-1  ]: Began running node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:22.979356 [info ] [Thread-1  ]: 7 of 10 START test unique_my_first_dbt_model_id ................................ [RUN]
+[0m17:29:22.980359 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710, now test.atelier3.unique_my_first_dbt_model_id.16e066b321)
+[0m17:29:22.981357 [debug] [Thread-1  ]: Began compiling node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:22.986858 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.unique_my_first_dbt_model_id.16e066b321"
+[0m17:29:22.987858 [debug] [Thread-1  ]: Began executing node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:22.990389 [debug] [Thread-1  ]: Writing runtime sql for node "test.atelier3.unique_my_first_dbt_model_id.16e066b321"
+[0m17:29:22.991389 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.unique_my_first_dbt_model_id.16e066b321"
+[0m17:29:22.991389 [debug] [Thread-1  ]: On test.atelier3.unique_my_first_dbt_model_id.16e066b321: BEGIN
+[0m17:29:22.992389 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:23.000121 [debug] [Thread-1  ]: SQL status: OK in 0.008 seconds
+[0m17:29:23.000121 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.unique_my_first_dbt_model_id.16e066b321"
+[0m17:29:23.001626 [debug] [Thread-1  ]: On test.atelier3.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "test.atelier3.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "prod"."raw"."my_first_dbt_model"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m17:29:23.005110 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:23.006606 [debug] [Thread-1  ]: On test.atelier3.unique_my_first_dbt_model_id.16e066b321: ROLLBACK
+[0m17:29:23.007615 [debug] [Thread-1  ]: Failed to rollback 'test.atelier3.unique_my_first_dbt_model_id.16e066b321'
+[0m17:29:23.007615 [debug] [Thread-1  ]: On test.atelier3.unique_my_first_dbt_model_id.16e066b321: Close
+[0m17:29:23.011157 [info ] [Thread-1  ]: 7 of 10 PASS unique_my_first_dbt_model_id ...................................... [[32mPASS[0m in 0.03s]
+[0m17:29:23.012663 [debug] [Thread-1  ]: Finished running node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:29:23.012663 [debug] [Thread-1  ]: Began running node model.atelier3.my_second_dbt_model
+[0m17:29:23.013673 [info ] [Thread-1  ]: 8 of 10 START sql view model raw.my_second_dbt_model ........................... [RUN]
+[0m17:29:23.014670 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.unique_my_first_dbt_model_id.16e066b321, now model.atelier3.my_second_dbt_model)
+[0m17:29:23.015670 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_second_dbt_model
+[0m17:29:23.018184 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_second_dbt_model"
+[0m17:29:23.019184 [debug] [Thread-1  ]: Began executing node model.atelier3.my_second_dbt_model
+[0m17:29:23.023195 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.my_second_dbt_model"
+[0m17:29:23.024196 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:23.025195 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: BEGIN
+[0m17:29:23.025195 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:23.034739 [debug] [Thread-1  ]: SQL status: OK in 0.009 seconds
+[0m17:29:23.034739 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:23.035740 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+
+  
+  create view "prod"."raw"."my_second_dbt_model__dbt_tmp" as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "prod"."raw"."my_first_dbt_model"
+where id = 1
+  );
+
+[0m17:29:23.037246 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:23.041259 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:23.042260 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+alter view "prod"."raw"."my_second_dbt_model" rename to "my_second_dbt_model__dbt_backup"
+[0m17:29:23.043260 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:23.046405 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:23.046405 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+alter view "prod"."raw"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m17:29:23.047916 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:23.049456 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: COMMIT
+[0m17:29:23.049456 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:23.050463 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: COMMIT
+[0m17:29:23.054704 [debug] [Thread-1  ]: SQL status: OK in 0.004 seconds
+[0m17:29:23.057716 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:23.058720 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+drop view if exists "prod"."raw"."my_second_dbt_model__dbt_backup" cascade
+[0m17:29:23.061333 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:23.063392 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: Close
+[0m17:29:23.083984 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '61368444-61f0-4b21-9e81-fbba62c98e57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7EF88F70>]}
+[0m17:29:23.084983 [info ] [Thread-1  ]: 8 of 10 OK created sql view model raw.my_second_dbt_model ...................... [[32mOK[0m in 0.07s]
+[0m17:29:23.086356 [debug] [Thread-1  ]: Finished running node model.atelier3.my_second_dbt_model
+[0m17:29:23.086356 [debug] [Thread-1  ]: Began running node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:23.087355 [info ] [Thread-1  ]: 9 of 10 START test not_null_my_second_dbt_model_id ............................. [RUN]
+[0m17:29:23.088354 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_second_dbt_model, now test.atelier3.not_null_my_second_dbt_model_id.151b76d778)
+[0m17:29:23.088354 [debug] [Thread-1  ]: Began compiling node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:23.092874 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"
+[0m17:29:23.093874 [debug] [Thread-1  ]: Began executing node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:23.096874 [debug] [Thread-1  ]: Writing runtime sql for node "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"
+[0m17:29:23.097879 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"
+[0m17:29:23.097879 [debug] [Thread-1  ]: On test.atelier3.not_null_my_second_dbt_model_id.151b76d778: BEGIN
+[0m17:29:23.099385 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:23.112913 [debug] [Thread-1  ]: SQL status: OK in 0.014 seconds
+[0m17:29:23.112913 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"
+[0m17:29:23.113912 [debug] [Thread-1  ]: On test.atelier3.not_null_my_second_dbt_model_id.151b76d778: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from "prod"."raw"."my_second_dbt_model"
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m17:29:23.114913 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:23.116914 [debug] [Thread-1  ]: On test.atelier3.not_null_my_second_dbt_model_id.151b76d778: ROLLBACK
+[0m17:29:23.117911 [debug] [Thread-1  ]: Failed to rollback 'test.atelier3.not_null_my_second_dbt_model_id.151b76d778'
+[0m17:29:23.117911 [debug] [Thread-1  ]: On test.atelier3.not_null_my_second_dbt_model_id.151b76d778: Close
+[0m17:29:23.121527 [info ] [Thread-1  ]: 9 of 10 PASS not_null_my_second_dbt_model_id ................................... [[32mPASS[0m in 0.03s]
+[0m17:29:23.122530 [debug] [Thread-1  ]: Finished running node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:29:23.122530 [debug] [Thread-1  ]: Began running node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:23.123868 [info ] [Thread-1  ]: 10 of 10 START test unique_my_second_dbt_model_id .............................. [RUN]
+[0m17:29:23.123868 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.not_null_my_second_dbt_model_id.151b76d778, now test.atelier3.unique_my_second_dbt_model_id.57a0f8c493)
+[0m17:29:23.124877 [debug] [Thread-1  ]: Began compiling node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:23.127891 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"
+[0m17:29:23.129399 [debug] [Thread-1  ]: Began executing node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:23.131856 [debug] [Thread-1  ]: Writing runtime sql for node "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"
+[0m17:29:23.133361 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"
+[0m17:29:23.134384 [debug] [Thread-1  ]: On test.atelier3.unique_my_second_dbt_model_id.57a0f8c493: BEGIN
+[0m17:29:23.134384 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:23.142392 [debug] [Thread-1  ]: SQL status: OK in 0.008 seconds
+[0m17:29:23.143899 [debug] [Thread-1  ]: Using duckdb connection "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"
+[0m17:29:23.143899 [debug] [Thread-1  ]: On test.atelier3.unique_my_second_dbt_model_id.57a0f8c493: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "prod"."raw"."my_second_dbt_model"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m17:29:23.146203 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:23.147213 [debug] [Thread-1  ]: On test.atelier3.unique_my_second_dbt_model_id.57a0f8c493: ROLLBACK
+[0m17:29:23.148216 [debug] [Thread-1  ]: Failed to rollback 'test.atelier3.unique_my_second_dbt_model_id.57a0f8c493'
+[0m17:29:23.149217 [debug] [Thread-1  ]: On test.atelier3.unique_my_second_dbt_model_id.57a0f8c493: Close
+[0m17:29:23.152176 [info ] [Thread-1  ]: 10 of 10 PASS unique_my_second_dbt_model_id .................................... [[32mPASS[0m in 0.03s]
+[0m17:29:23.153176 [debug] [Thread-1  ]: Finished running node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:29:23.154744 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:23.154744 [debug] [MainThread]: On master: BEGIN
+[0m17:29:23.155249 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:29:23.163443 [debug] [MainThread]: SQL status: OK in 0.008 seconds
+[0m17:29:23.163443 [debug] [MainThread]: On master: COMMIT
+[0m17:29:23.164973 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:23.164973 [debug] [MainThread]: On master: COMMIT
+[0m17:29:23.165999 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m17:29:23.165999 [debug] [MainThread]: On master: Close
+[0m17:29:23.168416 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:29:23.169635 [debug] [MainThread]: Connection 'create_prod_raw' was properly closed.
+[0m17:29:23.169635 [debug] [MainThread]: Connection 'list_prod_raw' was properly closed.
+[0m17:29:23.170976 [debug] [MainThread]: Connection 'test.atelier3.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m17:29:23.170976 [info ] [MainThread]: 
+[0m17:29:23.170976 [info ] [MainThread]: Finished running 4 data tests, 6 view models in 0 hours 0 minutes and 0.94 seconds (0.94s).
+[0m17:29:23.174319 [debug] [MainThread]: Command end result
+[0m17:29:23.194908 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:29:23.197418 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:29:23.205081 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\run_results.json
+[0m17:29:23.206079 [info ] [MainThread]: 
+[0m17:29:23.206079 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:29:23.207080 [info ] [MainThread]: 
+[0m17:29:23.208079 [info ] [MainThread]: Done. PASS=10 WARN=0 ERROR=0 SKIP=0 TOTAL=10
+[0m17:29:23.208079 [debug] [MainThread]: Command `dbt build` succeeded at 17:29:23.208079 after 2.04 seconds
+[0m17:29:23.209823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7B184CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7A51D4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F7EF74970>]}
+[0m17:29:23.209823 [debug] [MainThread]: Flushing usage events
+[0m17:29:23.689647 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:29:37.732679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BB9FD4C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBBF0C3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBBF0C220>]}
+
+
+============================== 17:29:37.736195 | 8d585c96-eef9-4a13-b6e9-6a504c7d8f80 ==============================
+[0m17:29:37.736195 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:29:37.737202 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m17:29:37.969877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BB92B5820>]}
+[0m17:29:38.022642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBB3D9280>]}
+[0m17:29:38.027647 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m17:29:38.306326 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m17:29:38.488102 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:29:38.488102 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:29:38.541853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBC63C130>]}
+[0m17:29:38.640773 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:29:38.642774 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:29:38.674755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBC6672B0>]}
+[0m17:29:38.674755 [info ] [MainThread]: Found 6 models, 4 data tests, 4 sources, 424 macros
+[0m17:29:38.676093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBC667EE0>]}
+[0m17:29:38.678122 [info ] [MainThread]: 
+[0m17:29:38.678122 [info ] [MainThread]: Concurrency: 1 threads (target='prod')
+[0m17:29:38.679130 [info ] [MainThread]: 
+[0m17:29:38.680210 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m17:29:38.685500 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_prod'
+[0m17:29:38.781808 [debug] [ThreadPool]: Using duckdb connection "list_prod"
+[0m17:29:38.783265 [debug] [ThreadPool]: On list_prod: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "list_prod"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"prod"'
+    
+  
+  
+[0m17:29:38.784048 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:29:38.795618 [debug] [ThreadPool]: SQL status: OK in 0.011 seconds
+[0m17:29:38.797191 [debug] [ThreadPool]: On list_prod: Close
+[0m17:29:38.799787 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_prod, now create_prod_raw)
+[0m17:29:38.800835 [debug] [ThreadPool]: Creating schema "database: "prod"
+schema: "raw"
+"
+[0m17:29:38.808261 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:38.808790 [debug] [ThreadPool]: On create_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "create_prod_raw"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='prod'
+        and type='sqlite'
+    
+  
+[0m17:29:38.809839 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:29:38.818919 [debug] [ThreadPool]: SQL status: OK in 0.009 seconds
+[0m17:29:38.821087 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:38.821614 [debug] [ThreadPool]: On create_prod_raw: BEGIN
+[0m17:29:38.822745 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:29:38.823270 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:38.823804 [debug] [ThreadPool]: On create_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "create_prod_raw"} */
+
+    
+    
+        create schema if not exists "prod"."raw"
+    
+[0m17:29:38.824322 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:29:38.825375 [debug] [ThreadPool]: On create_prod_raw: COMMIT
+[0m17:29:38.825899 [debug] [ThreadPool]: Using duckdb connection "create_prod_raw"
+[0m17:29:38.826426 [debug] [ThreadPool]: On create_prod_raw: COMMIT
+[0m17:29:38.827474 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:29:38.828003 [debug] [ThreadPool]: On create_prod_raw: Close
+[0m17:29:38.831679 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_prod_raw'
+[0m17:29:38.837483 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:29:38.838006 [debug] [ThreadPool]: On list_prod_raw: BEGIN
+[0m17:29:38.838529 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:29:38.847135 [debug] [ThreadPool]: SQL status: OK in 0.008 seconds
+[0m17:29:38.847135 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:29:38.848135 [debug] [ThreadPool]: On list_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "list_prod_raw"} */
+select
+      'prod' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'raw'
+    and lower(table_catalog) = 'prod'
+  
+[0m17:29:38.875213 [debug] [ThreadPool]: SQL status: OK in 0.027 seconds
+[0m17:29:38.876215 [debug] [ThreadPool]: On list_prod_raw: ROLLBACK
+[0m17:29:38.877719 [debug] [ThreadPool]: Failed to rollback 'list_prod_raw'
+[0m17:29:38.877719 [debug] [ThreadPool]: On list_prod_raw: Close
+[0m17:29:38.883776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBD708280>]}
+[0m17:29:38.883776 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:38.884773 [debug] [MainThread]: On master: BEGIN
+[0m17:29:38.884773 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:29:38.892816 [debug] [MainThread]: SQL status: OK in 0.008 seconds
+[0m17:29:38.893818 [debug] [MainThread]: On master: COMMIT
+[0m17:29:38.893818 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:38.893818 [debug] [MainThread]: On master: COMMIT
+[0m17:29:38.895326 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m17:29:38.895326 [debug] [MainThread]: On master: Close
+[0m17:29:38.898964 [debug] [Thread-1  ]: Began running node model.atelier3.contributors
+[0m17:29:38.899970 [info ] [Thread-1  ]: 1 of 6 START sql view model raw.contributors ................................... [RUN]
+[0m17:29:38.900970 [debug] [Thread-1  ]: Acquiring new duckdb connection 'model.atelier3.contributors'
+[0m17:29:38.900970 [debug] [Thread-1  ]: Began compiling node model.atelier3.contributors
+[0m17:29:38.908129 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.contributors"
+[0m17:29:38.909632 [debug] [Thread-1  ]: Began executing node model.atelier3.contributors
+[0m17:29:38.938330 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.contributors"
+[0m17:29:38.938330 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:38.940741 [debug] [Thread-1  ]: On model.atelier3.contributors: BEGIN
+[0m17:29:38.940741 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m17:29:38.948760 [debug] [Thread-1  ]: SQL status: OK in 0.008 seconds
+[0m17:29:38.949777 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:38.949777 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+
+  
+  create view "prod"."raw"."contributors__dbt_tmp" as (
+    SELECT
+    login AS contributor_name,
+    contributions
+FROM "prod"."raw"."Contributeurs"
+  );
+
+[0m17:29:38.950783 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:38.956316 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:38.957315 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+alter view "prod"."raw"."contributors" rename to "contributors__dbt_backup"
+[0m17:29:38.958315 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:38.961933 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:38.961933 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+alter view "prod"."raw"."contributors__dbt_tmp" rename to "contributors"
+[0m17:29:38.963445 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:38.973631 [debug] [Thread-1  ]: On model.atelier3.contributors: COMMIT
+[0m17:29:38.973631 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:38.973631 [debug] [Thread-1  ]: On model.atelier3.contributors: COMMIT
+[0m17:29:38.979324 [debug] [Thread-1  ]: SQL status: OK in 0.004 seconds
+[0m17:29:38.984366 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.contributors"
+[0m17:29:38.984366 [debug] [Thread-1  ]: On model.atelier3.contributors: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.contributors"} */
+drop view if exists "prod"."raw"."contributors__dbt_backup" cascade
+[0m17:29:38.987623 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:38.989623 [debug] [Thread-1  ]: On model.atelier3.contributors: Close
+[0m17:29:39.013414 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBDADC0A0>]}
+[0m17:29:39.014413 [info ] [Thread-1  ]: 1 of 6 OK created sql view model raw.contributors .............................. [[32mOK[0m in 0.11s]
+[0m17:29:39.015416 [debug] [Thread-1  ]: Finished running node model.atelier3.contributors
+[0m17:29:39.015416 [debug] [Thread-1  ]: Began running node model.atelier3.my_first_dbt_model
+[0m17:29:39.016414 [info ] [Thread-1  ]: 2 of 6 START sql view model raw.my_first_dbt_model ............................. [RUN]
+[0m17:29:39.016924 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.contributors, now model.atelier3.my_first_dbt_model)
+[0m17:29:39.016924 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_first_dbt_model
+[0m17:29:39.020014 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_first_dbt_model"
+[0m17:29:39.021020 [debug] [Thread-1  ]: Began executing node model.atelier3.my_first_dbt_model
+[0m17:29:39.072538 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.my_first_dbt_model"
+[0m17:29:39.073540 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:39.073540 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: BEGIN
+[0m17:29:39.075012 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:39.091233 [debug] [Thread-1  ]: SQL status: OK in 0.016 seconds
+[0m17:29:39.092237 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:39.092237 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+
+  
+  create view "prod"."raw"."my_first_dbt_model__dbt_tmp" as (
+    SELECT *
+FROM "prod"."raw"."Temps"
+WHERE id IS NOT NULL
+  );
+
+[0m17:29:39.093236 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.096234 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:39.097236 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+alter view "prod"."raw"."my_first_dbt_model" rename to "my_first_dbt_model__dbt_backup"
+[0m17:29:39.097236 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.100749 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:39.100749 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+alter view "prod"."raw"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m17:29:39.101749 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.102918 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: COMMIT
+[0m17:29:39.104019 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:39.104019 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: COMMIT
+[0m17:29:39.110689 [debug] [Thread-1  ]: SQL status: OK in 0.007 seconds
+[0m17:29:39.114212 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_first_dbt_model"
+[0m17:29:39.115213 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_first_dbt_model"} */
+drop view if exists "prod"."raw"."my_first_dbt_model__dbt_backup" cascade
+[0m17:29:39.117522 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:39.119538 [debug] [Thread-1  ]: On model.atelier3.my_first_dbt_model: Close
+[0m17:29:39.140769 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBB356640>]}
+[0m17:29:39.141769 [info ] [Thread-1  ]: 2 of 6 OK created sql view model raw.my_first_dbt_model ........................ [[32mOK[0m in 0.12s]
+[0m17:29:39.142774 [debug] [Thread-1  ]: Finished running node model.atelier3.my_first_dbt_model
+[0m17:29:39.142774 [debug] [Thread-1  ]: Began running node model.atelier3.pulls
+[0m17:29:39.144279 [info ] [Thread-1  ]: 3 of 6 START sql view model raw.pulls .......................................... [RUN]
+[0m17:29:39.144279 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_first_dbt_model, now model.atelier3.pulls)
+[0m17:29:39.145308 [debug] [Thread-1  ]: Began compiling node model.atelier3.pulls
+[0m17:29:39.148316 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.pulls"
+[0m17:29:39.148316 [debug] [Thread-1  ]: Began executing node model.atelier3.pulls
+[0m17:29:39.152931 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.pulls"
+[0m17:29:39.153931 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:39.153931 [debug] [Thread-1  ]: On model.atelier3.pulls: BEGIN
+[0m17:29:39.154932 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:39.169900 [debug] [Thread-1  ]: SQL status: OK in 0.015 seconds
+[0m17:29:39.169900 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:39.171092 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+
+  
+  create view "prod"."raw"."pulls__dbt_tmp" as (
+    SELECT 
+    id AS pull_id,
+    state AS pull_state,
+    created_at,
+    closed_at,
+    user->>'login' AS author
+FROM "prod"."raw"."Pull"
+  );
+
+[0m17:29:39.171092 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.174667 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:39.174667 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+alter view "prod"."raw"."pulls" rename to "pulls__dbt_backup"
+[0m17:29:39.176172 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.178179 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:39.179687 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+alter view "prod"."raw"."pulls__dbt_tmp" rename to "pulls"
+[0m17:29:39.180693 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.183773 [debug] [Thread-1  ]: On model.atelier3.pulls: COMMIT
+[0m17:29:39.184777 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:39.184777 [debug] [Thread-1  ]: On model.atelier3.pulls: COMMIT
+[0m17:29:39.188380 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:39.192088 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.pulls"
+[0m17:29:39.192088 [debug] [Thread-1  ]: On model.atelier3.pulls: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.pulls"} */
+drop view if exists "prod"."raw"."pulls__dbt_backup" cascade
+[0m17:29:39.195224 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:39.196423 [debug] [Thread-1  ]: On model.atelier3.pulls: Close
+[0m17:29:39.218658 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBB356640>]}
+[0m17:29:39.219701 [info ] [Thread-1  ]: 3 of 6 OK created sql view model raw.pulls ..................................... [[32mOK[0m in 0.07s]
+[0m17:29:39.220713 [debug] [Thread-1  ]: Finished running node model.atelier3.pulls
+[0m17:29:39.220713 [debug] [Thread-1  ]: Began running node model.atelier3.raw_to_cleansed
+[0m17:29:39.221712 [info ] [Thread-1  ]: 4 of 6 START sql view model raw.raw_to_cleansed ................................ [RUN]
+[0m17:29:39.221712 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.pulls, now model.atelier3.raw_to_cleansed)
+[0m17:29:39.222942 [debug] [Thread-1  ]: Began compiling node model.atelier3.raw_to_cleansed
+[0m17:29:39.225951 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.raw_to_cleansed"
+[0m17:29:39.226961 [debug] [Thread-1  ]: Began executing node model.atelier3.raw_to_cleansed
+[0m17:29:39.230535 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.raw_to_cleansed"
+[0m17:29:39.231547 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:39.232550 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: BEGIN
+[0m17:29:39.232550 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:39.247236 [debug] [Thread-1  ]: SQL status: OK in 0.014 seconds
+[0m17:29:39.248238 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:39.248238 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+
+  
+  create view "prod"."raw"."raw_to_cleansed__dbt_tmp" as (
+    SELECT *
+FROM "prod"."raw"."Temps"
+  );
+
+[0m17:29:39.249747 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:39.253760 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:39.253760 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+alter view "prod"."raw"."raw_to_cleansed" rename to "raw_to_cleansed__dbt_backup"
+[0m17:29:39.254764 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.256763 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:39.258272 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+alter view "prod"."raw"."raw_to_cleansed__dbt_tmp" rename to "raw_to_cleansed"
+[0m17:29:39.258272 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.260789 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: COMMIT
+[0m17:29:39.260789 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:39.262174 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: COMMIT
+[0m17:29:39.265876 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:39.268493 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.raw_to_cleansed"
+[0m17:29:39.269017 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.raw_to_cleansed"} */
+drop view if exists "prod"."raw"."raw_to_cleansed__dbt_backup" cascade
+[0m17:29:39.271967 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:39.273691 [debug] [Thread-1  ]: On model.atelier3.raw_to_cleansed: Close
+[0m17:29:39.294927 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBDA0C760>]}
+[0m17:29:39.295930 [info ] [Thread-1  ]: 4 of 6 OK created sql view model raw.raw_to_cleansed ........................... [[32mOK[0m in 0.07s]
+[0m17:29:39.296928 [debug] [Thread-1  ]: Finished running node model.atelier3.raw_to_cleansed
+[0m17:29:39.297928 [debug] [Thread-1  ]: Began running node model.atelier3.transform_issues
+[0m17:29:39.297928 [info ] [Thread-1  ]: 5 of 6 START sql view model raw.transform_issues ............................... [RUN]
+[0m17:29:39.298926 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.raw_to_cleansed, now model.atelier3.transform_issues)
+[0m17:29:39.299933 [debug] [Thread-1  ]: Began compiling node model.atelier3.transform_issues
+[0m17:29:39.302928 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.transform_issues"
+[0m17:29:39.302928 [debug] [Thread-1  ]: Began executing node model.atelier3.transform_issues
+[0m17:29:39.308447 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.transform_issues"
+[0m17:29:39.309958 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:39.309958 [debug] [Thread-1  ]: On model.atelier3.transform_issues: BEGIN
+[0m17:29:39.311198 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:39.325620 [debug] [Thread-1  ]: SQL status: OK in 0.015 seconds
+[0m17:29:39.325620 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:39.327085 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+
+  
+  create view "prod"."raw"."transform_issues__dbt_tmp" as (
+    WITH issues AS (
+    SELECT * FROM "prod"."raw"."Temps"
+    UNION ALL
+    SELECT * FROM "prod"."raw"."Activities"
+)
+
+SELECT
+    id AS issue_id,
+    created_at,
+    closed_at,
+    state,
+    title
+FROM issues
+WHERE id IS NOT NULL
+  );
+
+[0m17:29:39.328383 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:39.331238 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:39.331238 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+alter view "prod"."raw"."transform_issues" rename to "transform_issues__dbt_backup"
+[0m17:29:39.332748 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.336267 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:39.336267 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+alter view "prod"."raw"."transform_issues__dbt_tmp" rename to "transform_issues"
+[0m17:29:39.337279 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.338279 [debug] [Thread-1  ]: On model.atelier3.transform_issues: COMMIT
+[0m17:29:39.339790 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:39.339790 [debug] [Thread-1  ]: On model.atelier3.transform_issues: COMMIT
+[0m17:29:39.343522 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:39.345529 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.transform_issues"
+[0m17:29:39.347034 [debug] [Thread-1  ]: On model.atelier3.transform_issues: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.transform_issues"} */
+drop view if exists "prod"."raw"."transform_issues__dbt_backup" cascade
+[0m17:29:39.349892 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:39.350897 [debug] [Thread-1  ]: On model.atelier3.transform_issues: Close
+[0m17:29:39.372290 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BB93559D0>]}
+[0m17:29:39.373290 [info ] [Thread-1  ]: 5 of 6 OK created sql view model raw.transform_issues .......................... [[32mOK[0m in 0.07s]
+[0m17:29:39.374291 [debug] [Thread-1  ]: Finished running node model.atelier3.transform_issues
+[0m17:29:39.374291 [debug] [Thread-1  ]: Began running node model.atelier3.my_second_dbt_model
+[0m17:29:39.375759 [info ] [Thread-1  ]: 6 of 6 START sql view model raw.my_second_dbt_model ............................ [RUN]
+[0m17:29:39.375759 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.transform_issues, now model.atelier3.my_second_dbt_model)
+[0m17:29:39.377146 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_second_dbt_model
+[0m17:29:39.379860 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_second_dbt_model"
+[0m17:29:39.380365 [debug] [Thread-1  ]: Began executing node model.atelier3.my_second_dbt_model
+[0m17:29:39.384367 [debug] [Thread-1  ]: Writing runtime sql for node "model.atelier3.my_second_dbt_model"
+[0m17:29:39.385369 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:39.386367 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: BEGIN
+[0m17:29:39.386367 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:29:39.400087 [debug] [Thread-1  ]: SQL status: OK in 0.013 seconds
+[0m17:29:39.401092 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:39.401092 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+
+  
+  create view "prod"."raw"."my_second_dbt_model__dbt_tmp" as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "prod"."raw"."my_first_dbt_model"
+where id = 1
+  );
+
+[0m17:29:39.402457 [debug] [Thread-1  ]: SQL status: OK in 0.001 seconds
+[0m17:29:39.405455 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:39.406457 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+alter view "prod"."raw"."my_second_dbt_model" rename to "my_second_dbt_model__dbt_backup"
+[0m17:29:39.407458 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.411430 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:39.411430 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+alter view "prod"."raw"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m17:29:39.412436 [debug] [Thread-1  ]: SQL status: OK in 0.000 seconds
+[0m17:29:39.414489 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: COMMIT
+[0m17:29:39.414489 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:39.415489 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: COMMIT
+[0m17:29:39.418179 [debug] [Thread-1  ]: SQL status: OK in 0.003 seconds
+[0m17:29:39.421705 [debug] [Thread-1  ]: Using duckdb connection "model.atelier3.my_second_dbt_model"
+[0m17:29:39.421705 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "node_id": "model.atelier3.my_second_dbt_model"} */
+drop view if exists "prod"."raw"."my_second_dbt_model__dbt_backup" cascade
+[0m17:29:39.425184 [debug] [Thread-1  ]: SQL status: OK in 0.002 seconds
+[0m17:29:39.427202 [debug] [Thread-1  ]: On model.atelier3.my_second_dbt_model: Close
+[0m17:29:39.447150 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8d585c96-eef9-4a13-b6e9-6a504c7d8f80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBC297E80>]}
+[0m17:29:39.448149 [info ] [Thread-1  ]: 6 of 6 OK created sql view model raw.my_second_dbt_model ....................... [[32mOK[0m in 0.07s]
+[0m17:29:39.449654 [debug] [Thread-1  ]: Finished running node model.atelier3.my_second_dbt_model
+[0m17:29:39.450735 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:39.451261 [debug] [MainThread]: On master: BEGIN
+[0m17:29:39.451785 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:29:39.465154 [debug] [MainThread]: SQL status: OK in 0.014 seconds
+[0m17:29:39.465154 [debug] [MainThread]: On master: COMMIT
+[0m17:29:39.466484 [debug] [MainThread]: Using duckdb connection "master"
+[0m17:29:39.466484 [debug] [MainThread]: On master: COMMIT
+[0m17:29:39.467482 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m17:29:39.467482 [debug] [MainThread]: On master: Close
+[0m17:29:39.469988 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:29:39.471493 [debug] [MainThread]: Connection 'create_prod_raw' was properly closed.
+[0m17:29:39.472500 [debug] [MainThread]: Connection 'list_prod_raw' was properly closed.
+[0m17:29:39.472500 [debug] [MainThread]: Connection 'model.atelier3.my_second_dbt_model' was properly closed.
+[0m17:29:39.472500 [info ] [MainThread]: 
+[0m17:29:39.473995 [info ] [MainThread]: Finished running 6 view models in 0 hours 0 minutes and 0.79 seconds (0.79s).
+[0m17:29:39.474995 [debug] [MainThread]: Command end result
+[0m17:29:39.496355 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:29:39.500360 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:29:39.507100 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\run_results.json
+[0m17:29:39.507100 [info ] [MainThread]: 
+[0m17:29:39.508536 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:29:39.508536 [info ] [MainThread]: 
+[0m17:29:39.509534 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=0 SKIP=0 TOTAL=6
+[0m17:29:39.510534 [debug] [MainThread]: Command `dbt run` succeeded at 17:29:39.510534 after 1.85 seconds
+[0m17:29:39.511533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BB9FD4C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BBB32E3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027BB93365B0>]}
+[0m17:29:39.511533 [debug] [MainThread]: Flushing usage events
+[0m17:29:39.990608 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:34:01.968175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDEF4D4D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDF1406970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDF1406B20>]}
+
+
+============================== 17:34:01.972357 | 501a6d3f-ce4f-4aa2-ac67-11e6ff877f38 ==============================
+[0m17:34:01.972357 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:34:01.972357 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt docs serve', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:34:02.200132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '501a6d3f-ce4f-4aa2-ac67-11e6ff877f38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDEE802A30>]}
+[0m17:34:02.252033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '501a6d3f-ce4f-4aa2-ac67-11e6ff877f38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDEE7CDEE0>]}
+[0m17:35:39.482206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002625F534CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262614658B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026261465A60>]}
+
+
+============================== 17:35:39.485714 | 61071b01-4932-47fd-97e3-be1843aaa82d ==============================
+[0m17:35:39.485714 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:35:39.486714 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:35:39.723682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '61071b01-4932-47fd-97e3-be1843aaa82d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002626144FEE0>]}
+[0m17:35:39.774897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '61071b01-4932-47fd-97e3-be1843aaa82d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026260EE0880>]}
+[0m17:35:39.779640 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m17:35:40.056351 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m17:35:40.247930 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 1 files changed.
+[0m17:35:40.248942 [debug] [MainThread]: Partial parsing: added file: atelier3://models\schema.yml
+[0m17:35:40.249939 [debug] [MainThread]: Partial parsing: updated file: atelier3://models\sources.yml
+[0m17:35:40.730257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '61071b01-4932-47fd-97e3-be1843aaa82d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026262ED8F40>]}
+[0m17:35:40.769638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '61071b01-4932-47fd-97e3-be1843aaa82d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026262F3A640>]}
+[0m17:35:40.770932 [info ] [MainThread]: Found 6 models, 4 data tests, 4 sources, 424 macros
+[0m17:35:40.770932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '61071b01-4932-47fd-97e3-be1843aaa82d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026262F3A6A0>]}
+[0m17:35:40.772932 [info ] [MainThread]: 
+[0m17:35:40.772932 [info ] [MainThread]: Concurrency: 1 threads (target='prod')
+[0m17:35:40.772932 [info ] [MainThread]: 
+[0m17:35:40.774438 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m17:35:40.832450 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_prod_raw'
+[0m17:35:40.928332 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:35:40.929335 [debug] [ThreadPool]: On list_prod_raw: BEGIN
+[0m17:35:40.929335 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:35:40.939647 [debug] [ThreadPool]: SQL status: OK in 0.010 seconds
+[0m17:35:40.940647 [debug] [ThreadPool]: Using duckdb connection "list_prod_raw"
+[0m17:35:40.940647 [debug] [ThreadPool]: On list_prod_raw: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "list_prod_raw"} */
+select
+      'prod' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'raw'
+    and lower(table_catalog) = 'prod'
+  
+[0m17:35:40.967840 [debug] [ThreadPool]: SQL status: OK in 0.026 seconds
+[0m17:35:40.968841 [debug] [ThreadPool]: On list_prod_raw: ROLLBACK
+[0m17:35:40.969839 [debug] [ThreadPool]: Failed to rollback 'list_prod_raw'
+[0m17:35:40.970847 [debug] [ThreadPool]: On list_prod_raw: Close
+[0m17:35:40.975476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '61071b01-4932-47fd-97e3-be1843aaa82d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002625E627DF0>]}
+[0m17:35:40.982518 [debug] [Thread-1  ]: Began running node model.atelier3.contributors
+[0m17:35:40.982518 [debug] [Thread-1  ]: Acquiring new duckdb connection 'model.atelier3.contributors'
+[0m17:35:40.984022 [debug] [Thread-1  ]: Began compiling node model.atelier3.contributors
+[0m17:35:40.990763 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.contributors"
+[0m17:35:40.991771 [debug] [Thread-1  ]: Began executing node model.atelier3.contributors
+[0m17:35:40.993042 [debug] [Thread-1  ]: Finished running node model.atelier3.contributors
+[0m17:35:40.993042 [debug] [Thread-1  ]: Began running node model.atelier3.my_first_dbt_model
+[0m17:35:40.994064 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.contributors, now model.atelier3.my_first_dbt_model)
+[0m17:35:40.994064 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_first_dbt_model
+[0m17:35:40.997152 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_first_dbt_model"
+[0m17:35:40.998152 [debug] [Thread-1  ]: Began executing node model.atelier3.my_first_dbt_model
+[0m17:35:40.998152 [debug] [Thread-1  ]: Finished running node model.atelier3.my_first_dbt_model
+[0m17:35:40.999976 [debug] [Thread-1  ]: Began running node model.atelier3.pulls
+[0m17:35:40.999976 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_first_dbt_model, now model.atelier3.pulls)
+[0m17:35:41.001076 [debug] [Thread-1  ]: Began compiling node model.atelier3.pulls
+[0m17:35:41.004074 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.pulls"
+[0m17:35:41.005579 [debug] [Thread-1  ]: Began executing node model.atelier3.pulls
+[0m17:35:41.006585 [debug] [Thread-1  ]: Finished running node model.atelier3.pulls
+[0m17:35:41.006585 [debug] [Thread-1  ]: Began running node model.atelier3.raw_to_cleansed
+[0m17:35:41.007594 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.pulls, now model.atelier3.raw_to_cleansed)
+[0m17:35:41.007594 [debug] [Thread-1  ]: Began compiling node model.atelier3.raw_to_cleansed
+[0m17:35:41.010478 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.raw_to_cleansed"
+[0m17:35:41.011479 [debug] [Thread-1  ]: Began executing node model.atelier3.raw_to_cleansed
+[0m17:35:41.012590 [debug] [Thread-1  ]: Finished running node model.atelier3.raw_to_cleansed
+[0m17:35:41.012590 [debug] [Thread-1  ]: Began running node model.atelier3.transform_issues
+[0m17:35:41.013590 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.raw_to_cleansed, now model.atelier3.transform_issues)
+[0m17:35:41.013590 [debug] [Thread-1  ]: Began compiling node model.atelier3.transform_issues
+[0m17:35:41.017118 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.transform_issues"
+[0m17:35:41.017118 [debug] [Thread-1  ]: Began executing node model.atelier3.transform_issues
+[0m17:35:41.018625 [debug] [Thread-1  ]: Finished running node model.atelier3.transform_issues
+[0m17:35:41.018625 [debug] [Thread-1  ]: Began running node model.atelier3.my_second_dbt_model
+[0m17:35:41.019632 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.transform_issues, now model.atelier3.my_second_dbt_model)
+[0m17:35:41.019632 [debug] [Thread-1  ]: Began compiling node model.atelier3.my_second_dbt_model
+[0m17:35:41.022800 [debug] [Thread-1  ]: Writing injected SQL for node "model.atelier3.my_second_dbt_model"
+[0m17:35:41.022800 [debug] [Thread-1  ]: Began executing node model.atelier3.my_second_dbt_model
+[0m17:35:41.024306 [debug] [Thread-1  ]: Finished running node model.atelier3.my_second_dbt_model
+[0m17:35:41.025314 [debug] [Thread-1  ]: Began running node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:35:41.025314 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.atelier3.my_second_dbt_model, now test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710)
+[0m17:35:41.026818 [debug] [Thread-1  ]: Began compiling node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:35:41.035840 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:35:41.037345 [debug] [Thread-1  ]: Began executing node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:35:41.038350 [debug] [Thread-1  ]: Finished running node test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:35:41.038350 [debug] [Thread-1  ]: Began running node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:35:41.039355 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.not_null_my_first_dbt_model_id.5fb22c2710, now test.atelier3.unique_my_first_dbt_model_id.16e066b321)
+[0m17:35:41.039355 [debug] [Thread-1  ]: Began compiling node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:35:41.044940 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.unique_my_first_dbt_model_id.16e066b321"
+[0m17:35:41.046940 [debug] [Thread-1  ]: Began executing node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:35:41.047940 [debug] [Thread-1  ]: Finished running node test.atelier3.unique_my_first_dbt_model_id.16e066b321
+[0m17:35:41.047940 [debug] [Thread-1  ]: Began running node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:35:41.048941 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.unique_my_first_dbt_model_id.16e066b321, now test.atelier3.not_null_my_second_dbt_model_id.151b76d778)
+[0m17:35:41.048941 [debug] [Thread-1  ]: Began compiling node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:35:41.052451 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.not_null_my_second_dbt_model_id.151b76d778"
+[0m17:35:41.053452 [debug] [Thread-1  ]: Began executing node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:35:41.054451 [debug] [Thread-1  ]: Finished running node test.atelier3.not_null_my_second_dbt_model_id.151b76d778
+[0m17:35:41.055452 [debug] [Thread-1  ]: Began running node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:35:41.055452 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.atelier3.not_null_my_second_dbt_model_id.151b76d778, now test.atelier3.unique_my_second_dbt_model_id.57a0f8c493)
+[0m17:35:41.056691 [debug] [Thread-1  ]: Began compiling node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:35:41.061124 [debug] [Thread-1  ]: Writing injected SQL for node "test.atelier3.unique_my_second_dbt_model_id.57a0f8c493"
+[0m17:35:41.062125 [debug] [Thread-1  ]: Began executing node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:35:41.062630 [debug] [Thread-1  ]: Finished running node test.atelier3.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:35:41.063635 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:35:41.063635 [debug] [MainThread]: Connection 'list_prod_raw' was properly closed.
+[0m17:35:41.064997 [debug] [MainThread]: Connection 'test.atelier3.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m17:35:41.066587 [debug] [MainThread]: Command end result
+[0m17:35:41.161125 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:35:41.163818 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:35:41.172186 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\run_results.json
+[0m17:35:41.174186 [debug] [MainThread]: Acquiring new duckdb connection 'generate_catalog'
+[0m17:35:41.175188 [info ] [MainThread]: Building catalog
+[0m17:35:41.185863 [debug] [ThreadPool]: Acquiring new duckdb connection 'prod.information_schema'
+[0m17:35:41.194942 [debug] [ThreadPool]: Using duckdb connection "prod.information_schema"
+[0m17:35:41.195462 [debug] [ThreadPool]: On prod.information_schema: BEGIN
+[0m17:35:41.195981 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:35:41.205929 [debug] [ThreadPool]: SQL status: OK in 0.010 seconds
+[0m17:35:41.206963 [debug] [ThreadPool]: Using duckdb connection "prod.information_schema"
+[0m17:35:41.207501 [debug] [ThreadPool]: On prod.information_schema: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "atelier3", "target_name": "prod", "connection_name": "prod.information_schema"} */
+with relations AS (
+      select
+        t.table_name
+        , t.database_name
+        , t.schema_name
+        , 'BASE TABLE' as table_type
+        , t.comment as table_comment
+      from duckdb_tables() t
+      WHERE t.database_name = 'prod'
+      UNION ALL
+      SELECT v.view_name as table_name
+      , v.database_name
+      , v.schema_name
+      , 'VIEW' as table_type
+      , v.comment as table_comment
+      from duckdb_views() v
+      WHERE v.database_name = 'prod'
+    )
+    select
+        'prod' as table_database,
+        r.schema_name as table_schema,
+        r.table_name,
+        r.table_type,
+        r.table_comment,
+        c.column_name,
+        c.column_index as column_index,
+        c.data_type as column_type,
+        c.comment as column_comment,
+        '' as table_owner
+    FROM relations r JOIN duckdb_columns() c ON r.schema_name = c.schema_name AND r.table_name = c.table_name
+    WHERE (upper(r.schema_name) = upper('raw'))
+    ORDER BY
+        r.schema_name,
+        r.table_name,
+        c.column_index
+[0m17:35:41.252383 [debug] [ThreadPool]: SQL status: OK in 0.044 seconds
+[0m17:35:41.268192 [debug] [ThreadPool]: On prod.information_schema: ROLLBACK
+[0m17:35:41.269242 [debug] [ThreadPool]: Failed to rollback 'prod.information_schema'
+[0m17:35:41.269784 [debug] [ThreadPool]: On prod.information_schema: Close
+[0m17:35:41.293728 [debug] [MainThread]: Wrote artifact CatalogArtifact to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\catalog.json
+[0m17:35:41.314571 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\manifest.json
+[0m17:35:41.316800 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\semantic_manifest.json
+[0m17:35:41.316800 [info ] [MainThread]: Catalog written to C:\Users\water\Documents\GitHub\Atelier-2---Ingestion-des-donn-es\atelier3\target\catalog.json
+[0m17:35:41.319426 [debug] [MainThread]: Command `dbt docs generate` succeeded at 17:35:41.318305 after 1.91 seconds
+[0m17:35:41.319426 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m17:35:41.319426 [debug] [MainThread]: Connection 'prod.information_schema' was properly closed.
+[0m17:35:41.320439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002625F534CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026261B3C7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026262DF2070>]}
+[0m17:35:41.320439 [debug] [MainThread]: Flushing usage events
+[0m17:35:41.769710 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:35:43.864958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013635654D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013637586970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013637586B20>]}
+
+
+============================== 17:35:43.868476 | ad448169-caa4-4246-b10a-db15c86a1e14 ==============================
+[0m17:35:43.868476 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:35:43.869477 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\water\\Documents\\GitHub\\Atelier-2---Ingestion-des-donn-es\\atelier3\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs serve', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:35:44.098396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ad448169-caa4-4246-b10a-db15c86a1e14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001363494CA30>]}

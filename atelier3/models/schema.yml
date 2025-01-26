@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: contributors
+    description: "Modèle transformant les données des contributeurs en une vue claire des contributions individuelles."
+    columns:
+      - name: contributor_name
+        description: "Nom du contributeur extrait de la table Contributeurs."
+      - name: contributions
+        description: "Nombre total de contributions de chaque utilisateur."

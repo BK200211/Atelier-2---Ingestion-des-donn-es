@@ -2,8 +2,13 @@ version: 2
 
 sources:
   - name: raw
+    schema: raw
     tables:
       - name: Contributeurs
+        description: "Table contenant les informations des contributeurs GitHub, incluant leur login et le nombre de contributions."
       - name: Pull
+        description: "Table contenant les informations sur les pull requests."
       - name: Temps
+        description: "Table contenant les données temporelles liées aux activités sur GitHub."
       - name: Activities
+        description: "Table listant les activités enregistrées dans les dépôts."
