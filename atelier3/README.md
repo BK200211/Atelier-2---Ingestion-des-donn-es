@@ -1,13 +1,10 @@
-étape 1:
+Etape 1 :
 
-Voici le code afin de référencer les tables :
+Etape 2 : 
 
-version: 2
-sources:
-  - name: raw
-    tables:
-      - name: raw_activity
-      - name: raw_commits
-      - name: raw_issues
-      - name: raw_documentation
-      - name: raw_automation
+Etape 3 : 
+![image](https://github.com/user-attachments/assets/780fb212-be4d-413b-9c89-772515fa9de0)
+
+Etape 4 :
+
+![image](https://github.com/user-attachments/assets/2182fae4-cf86-4dc4-8bb8-f0a54e8ff6d3)
