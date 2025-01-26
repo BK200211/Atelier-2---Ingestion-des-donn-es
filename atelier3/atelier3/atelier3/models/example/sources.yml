@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: raw_activity
+  - name: raw_commits
+  - name: raw_issues
+  - name: raw_documentation
+  - name: raw_automation
