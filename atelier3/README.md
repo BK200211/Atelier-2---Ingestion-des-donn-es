@@ -1,6 +1,9 @@
-Etape 1 :
+Screenshot
 
 Etape 2 : 
+dbt clean
+dbt compile
+dbt build
 
 Etape 3 : 
 
