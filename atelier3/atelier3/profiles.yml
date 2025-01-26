@@ -1,13 +1,8 @@
 atelier3:
   outputs:
-    dev:
-      type: duckdb
-      path: "C:/Users/water/OneDrive/Работен плот/test/atelier3/atelier3/dev.duckdb"
-      schema: raw
-      threads: 1
     prod:
       type: duckdb
-      path: "C:/Users/water/OneDrive/Работен плот/test/atelier3/atelier3/prod.duckdb"
+      path: "prod.duckdb"
       schema: raw
-      threads: 4
-  target: dev
+      threads: 1
+  target: prod
